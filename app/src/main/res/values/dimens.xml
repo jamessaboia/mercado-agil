@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="a_quarter_default_material_margin">4dp</dimen>
+    <dimen name="default_material_margin">16dp</dimen>
+    <dimen name="half_default_material_margin">8dp</dimen>
+    <dimen name="medium_material_margin">32dp</dimen>
+    <dimen name="higher_material_margin">96dp</dimen>
+    <dimen name="default_padding">24dp</dimen>
+
+    <!-- WelcomeActivity-->
+    <dimen name="welcome_image_margin_top">60dp</dimen>
+
+    <!-- HomeFragment -->
+    <dimen name="btn_new_product_width">150dp</dimen>
+    <dimen name="bottom_bar_height">72dp</dimen>
+    <dimen name="snackbar_y_offset">80dp</dimen>
+
+    <!-- AddProductFragment -->
+    <dimen name="add_image_shape">200dp</dimen>
+    <dimen name="add_image_padding">5dp</dimen>
+    <dimen name="add_image_stroke_width">3dp</dimen>
+    <dimen name="add_image_edit_shape">50dp</dimen>
+    <dimen name="add_image_edit_margin_end">12dp</dimen>
+
+    <!-- ProductItem -->
+    <dimen name="btn_delete_product_click_area">40dp</dimen>
+
+</resources>

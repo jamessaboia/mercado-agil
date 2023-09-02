@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/menu_group">
+        <item
+            android:id="@+id/menu_clear_all_products"
+            android:title="@string/options_menu_item_delete_all"
+            app:showAsAction="never" />
+    </group>
+</menu>

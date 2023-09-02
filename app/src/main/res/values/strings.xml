@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Agile Market</string>
+
+    <!-- WelcomeActivity-->
+    <string name="tv_welcome_title_message">Welcome! :D</string>
+    <string name="tv_welcome_subtitle_message">We\'re here to provide you with an easy and fast market shopping experience.\n\nCreate and organize your market shopping list to make your routine easier. </string>
+    <string name="btn_start_use">Start using</string>
+
+    <!-- MainActivity-->
+    <string name="options_menu_item_delete_all">Clear list</string>
+    <string name="empty_list_snackkbar_message">Your list is already empty!</string>
+
+    <!-- HomeFragment -->
+    <string name="home_label">Shopping List</string>
+    <string name="tv_empty_list_message">Oops! Your shopping list is empty.\nClick on “New Product” and start creating your list!</string>
+    <string name="btn_add_product_text">New Product</string>
+    <string name="total_price_label">Total: %s</string>
+
+    <!-- AddProductFragment -->
+    <string name="add_product_label">Add Product</string>
+    <string name="it_add_product_name">Product\'s Name</string>
+    <string name="it_add_product_price">Product Value</string>
+    <string name="it_product_name_hint">Example: Rice</string>
+    <string name="it_product_price_hint">$0,00</string>
+    <string name="btn_add_item_text">Add Item</string>
+    <string name="set_product_amount_text">Amount:</string>
+    <string name="empty_name_snackkbar_message">Product name is empty!</string>
+
+    <!-- EditProductFragment -->
+    <string name="edit_product_label">Edit Product</string>
+    <string name="btn_edit_product">Done</string>
+
+    <!-- ProductItem -->
+    <string name="product_item_price">Value: %s</string>
+    <string name="product_item_amount">Amount: %d</string>
+
+    <!-- DeleteDialog -->
+    <string name="delete_dialog_title">Do you really want to delete this product?</string>
+    <string name="delete_dialog_subtitle">Once deleted, this product is no longer recoverable.</string>
+    <string name="delete_dialog_btn_delete">Delete</string>
+    <string name="delete_dialog_btn_cancel">Cancel</string>
+
+    <!-- AddImageDialog -->
+    <string name="add_image_dialog_btn">Upload Image</string>
+    <string name="add_image_dialog_url_it">Image Url</string>
+    <string name="add_image_confirm_btn">Confirm</string>
+</resources>

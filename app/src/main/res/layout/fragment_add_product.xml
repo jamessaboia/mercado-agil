@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.addproduct.AddProductFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/product_image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/add_image"
+            android:layout_width="@dimen/add_image_shape"
+            android:layout_height="@dimen/add_image_shape"
+            android:layout_marginTop="@dimen/default_padding"
+            android:padding="@dimen/add_image_padding"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeColor="@color/md_theme_light_background"
+            app:strokeWidth="@dimen/add_image_stroke_width"
+            tools:ignore="ContentDescription" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/add_image_edit_icon"
+            android:layout_width="@dimen/add_image_edit_shape"
+            android:layout_height="@dimen/add_image_edit_shape"
+            android:layout_marginEnd="@dimen/add_image_edit_margin_end"
+            android:layout_marginBottom="@dimen/half_default_material_margin"
+            android:background="@color/seed"
+            android:padding="@dimen/add_image_padding"
+            android:scaleType="center"
+            android:src="@drawable/ic_edit"
+            app:layout_constraintBottom_toBottomOf="@+id/add_image"
+            app:layout_constraintEnd_toEndOf="@+id/add_image"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:strokeColor="@color/md_theme_light_background"
+            app:strokeWidth="@dimen/add_image_stroke_width"
+            tools:ignore="ContentDescription" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/product_image_container">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/edit_product_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/it_product_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_padding"
+                android:layout_marginTop="@dimen/medium_material_margin"
+                android:hint="@string/it_add_product_name"
+                android:textColorHint="@color/seed"
+                app:boxStrokeColor="@drawable/input_text_state"
+                app:counterEnabled="true"
+                app:counterMaxLength="20"
+                app:expandedHintEnabled="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/edit_product_container">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/it_product_name"
+                    android:layout_width="match_parent"
+                    android:maxLength="20"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/it_product_name_hint"
+                    android:inputType="textCapSentences"
+                    android:maxLines="1"
+                    app:fontFamily="@font/dm_sans" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/it_product_price_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_padding"
+                android:layout_marginTop="@dimen/default_material_margin"
+                android:hint="@string/it_add_product_price"
+                android:textColorHint="@color/seed"
+                app:boxStrokeColor="@drawable/input_text_state"
+                app:expandedHintEnabled="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/it_product_name_layout">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/it_product_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/it_product_price_hint"
+                    android:inputType="numberSigned"
+                    app:fontFamily="@font/dm_sans" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tv_set_product_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_material_margin"
+                android:fontFamily="@font/dm_sans"
+                android:text="@string/set_product_amount_text"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/it_product_price_layout" />
+
+            <ImageView
+                android:id="@+id/btn_decrease_product_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_decrease_item_amount"
+                app:layout_constraintBottom_toBottomOf="@id/tv_product_amount_count"
+                app:layout_constraintEnd_toStartOf="@id/tv_set_product_amount"
+                app:layout_constraintTop_toTopOf="@id/tv_product_amount_count" />
+
+            <TextView
+                android:id="@+id/tv_product_amount_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_material_margin"
+                android:ellipsize="end"
+                android:fontFamily="@font/dm_sans_bold"
+                android:maxLines="1"
+                android:paddingHorizontal="@dimen/default_material_margin"
+                android:paddingVertical="@dimen/a_quarter_default_material_margin"
+                android:text="1"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@id/tv_set_product_amount"
+                app:layout_constraintStart_toStartOf="@id/tv_set_product_amount"
+                app:layout_constraintTop_toBottomOf="@id/tv_set_product_amount" />
+
+            <ImageView
+                android:id="@+id/btn_increase_product_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_increase_item_amount"
+                app:layout_constraintBottom_toBottomOf="@id/tv_product_amount_count"
+                app:layout_constraintStart_toEndOf="@id/tv_set_product_amount"
+                app:layout_constraintTop_toTopOf="@id/tv_product_amount_count"
+                tools:ignore="ContentDescription" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_bar_bg"
+        android:elevation="@dimen/default_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@color/md_theme_light_primary"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/default_padding"
+            android:layout_marginStart="@dimen/default_material_margin"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textColor="@color/md_theme_light_primary"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Total: R$ 00,00" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add_product"
+            android:layout_width="@dimen/btn_new_product_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/default_material_margin"
+            android:background="@drawable/button_rounded_corners"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="@string/btn_add_item_text"
+            android:textAllCaps="false"
+            android:textColor="@color/md_theme_light_background"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

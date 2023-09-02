@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_product_image"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/add_image_shape"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/default_image"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btn_load_image"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/btn_delete_product_click_area"
+            android:background="@drawable/button_rounded_corners"
+            android:fontFamily="@font/dm_sans_bold"
+            android:text="@string/add_image_dialog_btn"
+            app:icon="@drawable/ic_refresh"
+            app:layout_constraintBottom_toBottomOf="@id/iv_product_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_product_image" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/it_product_image_url_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/seed"
+            android:layout_margin="@dimen/default_material_margin"
+            android:hint="@string/add_image_dialog_url_it"
+            app:boxStrokeColor="@drawable/input_text_state"
+            app:expandedHintEnabled="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_load_image">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/it_product_image_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textUri"
+                android:maxLines="1"
+                app:fontFamily="@font/dm_sans" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

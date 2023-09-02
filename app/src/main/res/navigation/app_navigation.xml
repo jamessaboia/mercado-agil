@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.mercadogil.ui.home.HomeFragment"
+        android:label="@string/home_label"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_addProduct"
+            app:destination="@id/navigation_add_product"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_editProduct"
+            app:destination="@id/navigation_edit_product"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_add_product"
+        android:name="com.example.mercadogil.ui.addproduct.AddProductFragment"
+        android:label="@string/add_product_label"
+        tools:layout="@layout/fragment_add_product">
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_edit_product"
+        android:name="com.example.mercadogil.ui.editproduct.EditProductFragment"
+        android:label="@string/edit_product_label"
+        tools:layout="@layout/fragment_edit_product" >
+        <argument
+            android:name="data"
+            app:argType="com.example.mercadogil.data.entity.ProductEntity" />
+    </fragment>
+</navigation>

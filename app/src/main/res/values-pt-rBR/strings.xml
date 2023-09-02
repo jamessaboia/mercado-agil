@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mercado Ágil</string>
+
+    <!-- WelcomeActivity-->
+    <string name="tv_welcome_title_message">Bem-vindo(a)! :D</string>
+    <string name="tv_welcome_subtitle_message">Estamos aqui para proporcionar uma experiência de compras fácil e rápida.\n\nCrie e organize suas listas de compras para facilitar a sua rotina. </string>
+    <string name="btn_start_use">Começar a usar</string>
+
+    <!-- MainActivity-->
+    <string name="options_menu_item_delete_all">Limpar lista</string>
+    <string name="empty_list_snackkbar_message">Sua lista já está vázia!</string>
+
+    <!-- HomeFragment -->
+    <string name="home_label">Lista de Compras</string>
+    <string name="tv_empty_list_message">Ops! Sua lista de compras está vazia.\nClique em “Novo Produto” e comece a criar sua lista!</string>
+    <string name="btn_add_product_text">Novo Produto</string>
+    <string name="total_price_label">Total: %s</string>
+
+    <!-- AddProductFragment -->
+    <string name="add_product_label">Adicionar Produto</string>
+    <string name="it_add_product_name">Nome do Produto</string>
+    <string name="it_add_product_price">Valor do Produto</string>
+    <string name="it_product_name_hint">Ex: Arroz</string>
+    <string name="it_product_price_hint">R$ 0,00</string>
+    <string name="btn_add_item_text">Adicionar Item</string>
+    <string name="set_product_amount_text">Quantidade:</string>
+    <string name="empty_name_snackkbar_message">O nome do produto está vazio!</string>
+
+    <!-- EditProductFragment -->
+    <string name="edit_product_label">Editar Produto</string>
+    <string name="btn_edit_product">Concluído</string>
+
+    <!-- ProductItem -->
+    <string name="product_item_price">Valor: %s</string>
+    <string name="product_item_amount">Quantidade: %d</string>
+
+    <!-- DeleteDialog -->
+    <string name="delete_dialog_title">Deseja mesmo excluir esse produto?</string>
+    <string name="delete_dialog_subtitle">Uma vez excluído, este produto não poderá mais ser recuperado.</string>
+    <string name="delete_dialog_btn_delete">Excluir</string>
+    <string name="delete_dialog_btn_cancel">Cancelar</string>
+
+    <!-- AddImageDialog -->
+    <string name="add_image_dialog_btn">Carregar Imagem</string>
+    <string name="add_image_dialog_url_it">Url da Imagem</string>
+    <string name="add_image_confirm_btn">Confirmar</string>
+</resources>

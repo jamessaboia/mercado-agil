@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "97667751866",
+    "project_id": "mercado-agil-15f00",
+    "storage_bucket": "mercado-agil-15f00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97667751866:android:fc51ffd1e523b445df8783",
+        "android_client_info": {
+          "package_name": "com.example.mercadogil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97667751866-sre5h2brjk8334c90iutq8spl14m88l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6hxvW8LdlcYp3xW1OfVRfWpUaGK0H6bY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97667751866-sre5h2brjk8334c90iutq8spl14m88l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button_delete_dialog.xml" value="0.1025" />
+        <entry key="app/src/main/res/drawable/button_rounded_corners.xml" value="0.3295" />
+        <entry key="app/src/main/res/drawable/custom_popup_background.xml" value="0.343" />
+        <entry key="app/src/main/res/drawable/desable_item.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/drop_shadow.xml" value="0.22" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.3295" />
+        <entry key="app/src/main/res/drawable/ic_add_item.xml" value="0.3295" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.3425" />
+        <entry key="app/src/main/res/drawable/ic_cart.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/ic_check.xml" value="0.248" />
+        <entry key="app/src/main/res/drawable/ic_delete.xml" value="0.238" />
+        <entry key="app/src/main/res/drawable/ic_delete_outline.xml" value="0.238" />
+        <entry key="app/src/main/res/drawable/ic_image.xml" value="0.3425" />
+        <entry key="app/src/main/res/drawable/ic_image_1.xml" value="0.3295" />
+        <entry key="app/src/main/res/drawable/ic_increase_item_amount.xml" value="0.3575" />
+        <entry key="app/src/main/res/drawable/ic_logo.xml" value="0.3295" />
+        <entry key="app/src/main/res/drawable/ic_more.xml" value="0.26" />
+        <entry key="app/src/main/res/drawable/ic_outline_delete.xml" value="0.1975" />
+        <entry key="app/src/main/res/drawable/ic_refresh.xml" value="0.2635" />
+        <entry key="app/src/main/res/drawable/ic_shopping_cart.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/input_text_state.xml" value="0.2205" />
+        <entry key="app/src/main/res/drawable/placeholder.xml" value="0.231" />
+        <entry key="app/src/main/res/drawable/product_item_selector.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/rectangle_background.xml" value="0.124" />
+        <entry key="app/src/main/res/drawable/rounded_background.xml" value="0.2025" />
+        <entry key="app/src/main/res/drawable/rounded_bottom_bar.xml" value="0.3575" />
+        <entry key="app/src/main/res/drawable/shadow.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/splash_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/welcome_background.xml" value="0.3295" />
+        <entry key="app/src/main/res/font/dm_sans.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/layout-v28/fragment_add_item.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/add_image_dialog.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/delete_product_bottom_sheet_layout.xml" value="0.35520833333333335" />
+        <entry key="app/src/main/res/layout/dialog_delete.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_add_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_add_product.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_edit_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_edit_product.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_splash_screen.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_welcome.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_wellcome.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/image_bottom_sheet_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/image_dialog.xml" value="0.34103260869565216" />
+        <entry key="app/src/main/res/layout/product_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/skeleton_loading_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/skeleton_product_item.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/item_menu.xml" value="0.35625" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.35625" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.283" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2315" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
