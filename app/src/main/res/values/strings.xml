@@ -7,8 +7,16 @@
     <string name="btn_start_use">Start using</string>
 
     <!-- MainActivity-->
+    <string name="options_menu_item_share_list">Share list</string>
     <string name="options_menu_item_delete_all">Clear list</string>
-    <string name="empty_list_snackkbar_message">Your list is already empty!</string>
+    <string name="empty_list_snackkbar_message">Your list is empty!</string>
+    <string name="intent_title_shared">Share with…</string>
+    <string name="shared_message_title">Hello! This is my shopping list:\n\n</string>
+    <string name="shared_message_product_name">* Product: %1$s\n</string>
+    <string name="shared_message_product_amount">* Amount: %1$s\n</string>
+    <string name="shared_message_product_price">* Value: %1$s\n\n</string>
+    <string name="shared_list_message_total_value">* The total value is: %1$s\n\n</string>
+    <string name="shared_list_message_footer">This list was created using the Agile Market app.\n</string>
 
     <!-- HomeFragment -->
     <string name="home_label">Shopping List</string>

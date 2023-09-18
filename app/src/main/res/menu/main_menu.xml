@@ -4,6 +4,10 @@
 
     <group android:id="@+id/menu_group">
         <item
+            android:id="@+id/menu_share_list"
+            android:title="@string/options_menu_item_share_list"
+            app:showAsAction="never" />
+        <item
             android:id="@+id/menu_clear_all_products"
             android:title="@string/options_menu_item_delete_all"
             app:showAsAction="never" />

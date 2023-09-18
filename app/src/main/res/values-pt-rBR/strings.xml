@@ -8,8 +8,16 @@
     <string name="btn_start_use">Começar a usar</string>
 
     <!-- MainActivity-->
+    <string name="options_menu_item_share_list">Compartilhar lista</string>
     <string name="options_menu_item_delete_all">Limpar lista</string>
-    <string name="empty_list_snackkbar_message">Sua lista já está vázia!</string>
+    <string name="empty_list_snackkbar_message">Sua lista está vázia!</string>
+    <string name="intent_title_shared">Compartilhe para…</string>
+    <string name="shared_message_title">Olá! Esta é a minha lista de compras:\n\n</string>
+    <string name="shared_message_product_name">* Produto: %1$s\n</string>
+    <string name="shared_message_product_amount">* Quantidade: %1$s\n</string>
+    <string name="shared_message_product_price">* Valor: %1$s\n\n</string>
+    <string name="shared_list_message_total_value">* O valor total da compra é: %1$s\n\n</string>
+    <string name="shared_list_message_footer">Esta lista foi criada usando o aplicativo Mercado Ágil.\n</string>
 
     <!-- HomeFragment -->
     <string name="home_label">Lista de Compras</string>
