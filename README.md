@@ -1,5 +1,6 @@
 # Mercado Ágil
-![App Screenshot](url_da_imagem.png)
+![23AA49](https://github.com/jamessaboia/mercado-agil/assets/94633757/d1bc868f-1f26-4009-aabd-8a48c2263c95)
+
 
 O Mercado Ágil é um aplicativo de lista de compras projetado para tornar suas compras no supermercado mais eficientes e conscientes. Com o Mercado Ágil, você pode criar e compartilhar listas de compras, bem como acompanhar o valor total de suas compras em tempo real.
 
